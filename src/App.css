@@ -1,38 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500&family=Poppins:wght@200;300;400&display=swap");
 .App {
+  font-family: "Poppins", sans-serif;
+}
+.App .register, .App .verification {
+  display: flex;
+}
+.App .register .ct_1, .App .verification .ct_1 {
+  width: 887px;
+  background: #E3ECFF;
+}
+.App .register .ct_1 .header, .App .verification .ct_1 .header {
+  text-align: center;
+  margin-top: 49px;
+}
+.App .register .ct_1 .text, .App .verification .ct_1 .text {
+  margin-left: 58px;
+}
+.App .register .ct_1 .text h1, .App .verification .ct_1 .text h1 {
+  font-size: 33.18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #0D0D26;
+}
+.App .register .ct_1 .text p, .App .verification .ct_1 .text p {
+  font-size: 19.2px;
+  color: #4B4A4A;
+  font-weight: 400;
+}
+.App .register .ct_1 .form, .App .verification .ct_1 .form {
+  margin-left: 58px;
+}
+.App .register .ct_1 .form form label, .App .verification .ct_1 .form form label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: rgba(75, 74, 74, 0.7882352941);
+}
+.App .register .ct_1 .form form label[for=check], .App .verification .ct_1 .form form label[for=check] {
+  font-size: 13px;
+  font-weight: 400;
+  color: #A8D8D8;
+}
+.App .register .ct_1 .form form input, .App .verification .ct_1 .form form input {
+  margin-bottom: 18px;
+  width: 712px;
+  height: 65px;
+  border: 1.5px solid #01C8FF;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #4B4A4A;
+  padding-left: 21px;
+  cursor: pointer;
+}
+.App .register .ct_1 .form form input::-moz-placeholder, .App .verification .ct_1 .form form input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.App .register .ct_1 .form form input:-ms-input-placeholder, .App .verification .ct_1 .form form input:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.App .register .ct_1 .form form input::placeholder, .App .verification .ct_1 .form form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.App .register .ct_1 .form form input[type=checkbox], .App .verification .ct_1 .form form input[type=checkbox] {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  z-index: 1;
+  opacity: 0;
+}
+.App .register .ct_1 .form form input[type=checkbox]:checked ~ .custom_check, .App .verification .ct_1 .form form input[type=checkbox]:checked ~ .custom_check {
+  background: #9191DB;
+  border: none;
+}
+.App .register .ct_1 .form form input[type=checkbox]:checked ~ .custom_check:after, .App .verification .ct_1 .form form input[type=checkbox]:checked ~ .custom_check:after {
+  display: block;
+}
+.App .register .ct_1 .form form .ct_p, .App .verification .ct_1 .form form .ct_p {
+  position: relative;
+}
+.App .register .ct_1 .form form .ct_p img, .App .verification .ct_1 .form form .ct_p img {
+  position: absolute;
+  right: 80px;
+  top: 0;
+  padding: 50px;
+}
+.App .register .ct_1 .form form .checked, .App .verification .ct_1 .form form .checked {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+}
+.App .register .ct_1 .form form .checked .custom_check, .App .verification .ct_1 .form form .checked .custom_check {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.App .register .ct_1 .form form .checked .custom_check:after, .App .verification .ct_1 .form form .checked .custom_check:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 7px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.App .register .ct_1 .form form .submit_btn, .App .verification .ct_1 .form form .submit_btn {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .register .ct_1 .form form .submit_btn button, .App .verification .ct_1 .form form .submit_btn button {
+  width: 528px;
+  height: 50px;
+  background: #01C8FF;
+  border: none;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4B4A4A;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .register .ct_1 .form form .submit_btn span, .App .verification .ct_1 .form form .submit_btn span {
+  display: block;
+  margin: 20px 0 58px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4B4A4A;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .register .ct_1 .form form .submit_btn span a, .App .verification .ct_1 .form form .submit_btn span a {
+  font-family: "Poppins", sans-serif;
+  color: #01C8FF;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.App .register .ct_1 .verification_form, .App .verification .ct_1 .verification_form {
+  text-align: center;
+  margin-bottom: 207px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .register .ct_1 .verification_form form div, .App .verification .ct_1 .verification_form form div {
+  margin: 123px 0 152px 0;
 }
+.App .register .ct_1 .verification_form form div input, .App .verification .ct_1 .verification_form form div input {
+  width: 78px;
+  height: 97px;
+  margin-right: 25px;
+  border: 1.5px solid #01C8FF;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 35px;
+  color: #4B4A4A;
+  cursor: pointer;
+}
+.App .register .ct_1 .verification_form form .submit_btn button, .App .verification .ct_1 .verification_form form .submit_btn button {
+  width: 528px;
+  height: 50px;
+  background: #01C8FF;
+  border: none;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4B4A4A;
+  cursor: pointer;
+}
+.App .register .ct_2, .App .verification .ct_2 {
+  width: 625px;
+  background: #01C8FF;
+}
+.App .register .ct_2 img, .App .verification .ct_2 img {
+  position: absolute;
+  left: 817px;
+  top: 168px;
+}/*# sourceMappingURL=App.css.map */
