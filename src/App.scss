@@ -7,43 +7,47 @@
         display: flex;
 
         .ct_1{
-            width: 887px;
+            width: 58.7vw;
             background: #E3ECFF;
 
             .header{
                text-align: center;
                margin-top: 49px;
+
+               img{
+                width: 19.44vw;
+               }
             }
 
            .text{
-                margin-left: 58px; 
+                margin-left: 6.65%; 
 
                 h1{
-                    font-size: 33.18px;
+                    font-size: 2.19vw;
                     font-weight: 500;
                     font-family: 'Montserrat', sans-serif;
                     color: #0D0D26;
                 }
 
                 p{
-                    font-size: 19.2px;
+                    font-size: 1.26vw;
                     color: #4B4A4A;
                     font-weight: 400;
                 }
             }
 
            .form{
-            margin-left: 58px;
+            margin-left: 6.6%;
 
                 form{
                     label{
-                        font-size: 14px;
+                        font-size: 0.96vw;
                         font-weight: 500;
                         font-family: 'Inter', sans-serif;
                         color: #4B4A4AC9;
 
                         &[for="check"]{
-                            font-size: 13px;
+                            font-size: 0.86vw;
                             font-weight: 400;
                             color: #A8D8D8;
                         }
@@ -51,20 +55,20 @@
 
                     input{
                         margin-bottom: 18px;
-                        width: 712px;
+                        width: 80.3%;
                         height: 65px;
                         border: 1.5px solid #01C8FF;
                         background: none;
                         outline: none;
                         border-radius: 5px;
-                        font-size: 20px;
+                        font-size: 1.3vw;
                         color: #4B4A4A;
-                        padding-left: 21px;
+                        padding-left: 2.95%;
                         cursor: pointer;
 
                         &::placeholder{
                             font-family: 'Inter', sans-serif;
-                            font-size: 16px;
+                            font-size: 1.06vw;
                             font-weight: 500;
                         }
 
@@ -90,7 +94,7 @@
                         position: relative;
                         img{
                             position: absolute;
-                            right: 80px;
+                            right: 12.2%;
                             top: 0;
                             padding: 50px;
                         }
@@ -128,15 +132,16 @@
 
                     .submit_btn{
                         text-align: center;
+                        margin-right: 6.6%;
 
                         button{
-                            width: 528px;
+                            width: 59.5%;
                             height: 50px;
                             background: #01C8FF;
                             border: none;
                             border-radius: 10px;
                             font-family: 'Montserrat', sans-serif;
-                            font-size: 20px;
+                            font-size: 1.32vw;
                             font-weight: 400;
                             color: #4B4A4A;
                             cursor: pointer;
@@ -146,7 +151,7 @@
                             display: block;
                             margin: 20px 0 58px 0;
                             font-family: 'Montserrat', sans-serif;
-                            font-size: 16px;
+                            font-size: 1.06vw;
                             font-weight: 400;
                             color: #4B4A4A;
 
@@ -170,15 +175,15 @@
                         margin: 123px 0 152px 0;
 
                         input{
-                            width: 78px;
+                            width: 8.8%;
                             height: 97px;
-                            margin-right: 25px;
+                            margin-right: 2.8%;
                             border: 1.5px solid #01C8FF;
                             background: none;
                             outline: none;
                             border-radius: 5px;
                             text-align: center;
-                            font-size: 35px;
+                            font-size: 2.3vw;
                             color: #4B4A4A;
                             cursor: pointer;
                         }
@@ -186,13 +191,13 @@
 
                     .submit_btn{
                         button{
-                            width: 528px;
+                            width: 59.5%;
                             height: 50px;
                             background: #01C8FF;
                             border: none;
                             border-radius: 10px;
                             font-family: 'Montserrat', sans-serif;
-                            font-size: 20px;
+                            font-size: 1.32vw;
                             font-weight: 400;
                             color: #4B4A4A;
                             cursor: pointer;
@@ -203,13 +208,197 @@
         }
 
         .ct_2{
-            width: 625px;
+            width: 41.34vw;
             background: #01C8FF;
 
             img{
+                width: 42.7%;
                 position: absolute;
-                left: 817px;
+                left: 54%;
                 top: 168px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .App{
+        .register .ct_1 .form form {
+            input{
+                height: 45px;
+            }
+
+            .ct_p img{
+                top: -3px;
+                padding: 45px;
+            }
+
+            .submit_btn button{
+                height: 40px;
+            }
+        }
+    
+        .verification .ct_1 .verification_form form{    
+            div input{
+                height: 72px;
+            }
+
+            .submit_btn button{
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .App{
+        .register .ct_1{
+            .text{
+
+                h1{
+                    font-size: 20px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+            }
+
+            .form form {
+                label{
+                    font-size: 11px;
+
+                    &[for="check"]{
+                        font-size: 10px;
+                    }
+                }
+                input{
+                    height: 35px;
+                    font-size: 11px;
+
+                    &::placeholder{
+                        font-size: 11px;
+                    }
+                }
+    
+                .ct_p img{
+                    width: 16px;
+                    top: 8px;
+                    padding: 30px;
+                }
+    
+                .submit_btn button{
+                    height: 30px;
+                    font-size: 11px;
+                }
+
+                .submit_btn  span{
+                    font-size: 11px;
+                }
+            }
+        }
+    
+        .verification .ct_1 {
+            .text{
+                h1{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 12px;
+                }
+            }
+
+            .verification_form form{    
+                div input{
+                    height: 52px;
+                }
+    
+                .submit_btn button{
+                    height: 30px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .App{
+        .register .ct_1 {
+            .header img{
+                width: 160px;
+            }
+
+            .text{
+
+                h1{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 12px;
+                }
+            }
+
+            .form form {
+                label{
+                    font-size: 11px;
+
+                    &[for="check"]{
+                        font-size: 10px;
+                    }
+                }
+                input{
+                    height: 25px;
+                    font-size: 2vw;
+
+                    &::placeholder{
+                        font-size: 9px;
+                    }
+                }
+    
+                .ct_p img{
+                    top: 14px;
+                    padding: 20px;
+                }
+    
+                .submit_btn button{
+                    height: 20px;
+                    font-size: 9px;
+                }
+
+                .submit_btn  span{
+                    font-size: 9px;
+                }
+            }
+        }
+    
+        .verification .ct_1 {
+            .header img{
+                width: 160px;
+            }
+
+            .text{
+                h1{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 10px;
+                }
+            }
+
+            .verification_form form{    
+                div input{
+                    height: 32px;
+                }
+    
+                .submit_btn button{
+                    height: 20px;
+                    font-size: 9px;
+                }
             }
         }
     }

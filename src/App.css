@@ -6,67 +6,70 @@
   display: flex;
 }
 .App .register .ct_1, .App .verification .ct_1 {
-  width: 887px;
+  width: 58.7vw;
   background: #E3ECFF;
 }
 .App .register .ct_1 .header, .App .verification .ct_1 .header {
   text-align: center;
   margin-top: 49px;
 }
+.App .register .ct_1 .header img, .App .verification .ct_1 .header img {
+  width: 19.44vw;
+}
 .App .register .ct_1 .text, .App .verification .ct_1 .text {
-  margin-left: 58px;
+  margin-left: 6.65%;
 }
 .App .register .ct_1 .text h1, .App .verification .ct_1 .text h1 {
-  font-size: 33.18px;
+  font-size: 2.19vw;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #0D0D26;
 }
 .App .register .ct_1 .text p, .App .verification .ct_1 .text p {
-  font-size: 19.2px;
+  font-size: 1.26vw;
   color: #4B4A4A;
   font-weight: 400;
 }
 .App .register .ct_1 .form, .App .verification .ct_1 .form {
-  margin-left: 58px;
+  margin-left: 6.6%;
 }
 .App .register .ct_1 .form form label, .App .verification .ct_1 .form form label {
-  font-size: 14px;
+  font-size: 0.96vw;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   color: rgba(75, 74, 74, 0.7882352941);
 }
 .App .register .ct_1 .form form label[for=check], .App .verification .ct_1 .form form label[for=check] {
-  font-size: 13px;
+  font-size: 0.86vw;
   font-weight: 400;
   color: #A8D8D8;
 }
 .App .register .ct_1 .form form input, .App .verification .ct_1 .form form input {
   margin-bottom: 18px;
-  width: 712px;
+  width: 80.3%;
   height: 65px;
   border: 1.5px solid #01C8FF;
   background: none;
   outline: none;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1.3vw;
   color: #4B4A4A;
-  padding-left: 21px;
+  padding-left: 2.95%;
   cursor: pointer;
 }
 .App .register .ct_1 .form form input::-moz-placeholder, .App .verification .ct_1 .form form input::-moz-placeholder {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1.06vw;
   font-weight: 500;
 }
 .App .register .ct_1 .form form input:-ms-input-placeholder, .App .verification .ct_1 .form form input:-ms-input-placeholder {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1.06vw;
   font-weight: 500;
 }
 .App .register .ct_1 .form form input::placeholder, .App .verification .ct_1 .form form input::placeholder {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1.06vw;
   font-weight: 500;
 }
 .App .register .ct_1 .form form input[type=checkbox], .App .verification .ct_1 .form form input[type=checkbox] {
@@ -88,7 +91,7 @@
 }
 .App .register .ct_1 .form form .ct_p img, .App .verification .ct_1 .form form .ct_p img {
   position: absolute;
-  right: 80px;
+  right: 12.2%;
   top: 0;
   padding: 50px;
 }
@@ -120,15 +123,16 @@
 }
 .App .register .ct_1 .form form .submit_btn, .App .verification .ct_1 .form form .submit_btn {
   text-align: center;
+  margin-right: 6.6%;
 }
 .App .register .ct_1 .form form .submit_btn button, .App .verification .ct_1 .form form .submit_btn button {
-  width: 528px;
+  width: 59.5%;
   height: 50px;
   background: #01C8FF;
   border: none;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.32vw;
   font-weight: 400;
   color: #4B4A4A;
   cursor: pointer;
@@ -137,7 +141,7 @@
   display: block;
   margin: 20px 0 58px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 1.06vw;
   font-weight: 400;
   color: #4B4A4A;
 }
@@ -154,36 +158,165 @@
   margin: 123px 0 152px 0;
 }
 .App .register .ct_1 .verification_form form div input, .App .verification .ct_1 .verification_form form div input {
-  width: 78px;
+  width: 8.8%;
   height: 97px;
-  margin-right: 25px;
+  margin-right: 2.8%;
   border: 1.5px solid #01C8FF;
   background: none;
   outline: none;
   border-radius: 5px;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.3vw;
   color: #4B4A4A;
   cursor: pointer;
 }
 .App .register .ct_1 .verification_form form .submit_btn button, .App .verification .ct_1 .verification_form form .submit_btn button {
-  width: 528px;
+  width: 59.5%;
   height: 50px;
   background: #01C8FF;
   border: none;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.32vw;
   font-weight: 400;
   color: #4B4A4A;
   cursor: pointer;
 }
 .App .register .ct_2, .App .verification .ct_2 {
-  width: 625px;
+  width: 41.34vw;
   background: #01C8FF;
 }
 .App .register .ct_2 img, .App .verification .ct_2 img {
+  width: 42.7%;
   position: absolute;
-  left: 817px;
+  left: 54%;
   top: 168px;
+}
+
+@media screen and (max-width: 1300px) {
+  .App .register .ct_1 .form form input {
+    height: 45px;
+  }
+  .App .register .ct_1 .form form .ct_p img {
+    top: -3px;
+    padding: 45px;
+  }
+  .App .register .ct_1 .form form .submit_btn button {
+    height: 40px;
+  }
+  .App .verification .ct_1 .verification_form form div input {
+    height: 72px;
+  }
+  .App .verification .ct_1 .verification_form form .submit_btn button {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .App .register .ct_1 .text h1 {
+    font-size: 20px;
+  }
+  .App .register .ct_1 .text p {
+    font-size: 14px;
+  }
+  .App .register .ct_1 .form form label {
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form label[for=check] {
+    font-size: 10px;
+  }
+  .App .register .ct_1 .form form input {
+    height: 35px;
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form input::-moz-placeholder {
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form input:-ms-input-placeholder {
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form input::placeholder {
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form .ct_p img {
+    width: 16px;
+    top: 8px;
+    padding: 30px;
+  }
+  .App .register .ct_1 .form form .submit_btn button {
+    height: 30px;
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form .submit_btn span {
+    font-size: 11px;
+  }
+  .App .verification .ct_1 .text h1 {
+    font-size: 18px;
+  }
+  .App .verification .ct_1 .text p {
+    font-size: 12px;
+  }
+  .App .verification .ct_1 .verification_form form div input {
+    height: 52px;
+  }
+  .App .verification .ct_1 .verification_form form .submit_btn button {
+    height: 30px;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App .register .ct_1 .header img {
+    width: 160px;
+  }
+  .App .register .ct_1 .text h1 {
+    font-size: 18px;
+  }
+  .App .register .ct_1 .text p {
+    font-size: 12px;
+  }
+  .App .register .ct_1 .form form label {
+    font-size: 11px;
+  }
+  .App .register .ct_1 .form form label[for=check] {
+    font-size: 10px;
+  }
+  .App .register .ct_1 .form form input {
+    height: 25px;
+    font-size: 2vw;
+  }
+  .App .register .ct_1 .form form input::-moz-placeholder {
+    font-size: 9px;
+  }
+  .App .register .ct_1 .form form input:-ms-input-placeholder {
+    font-size: 9px;
+  }
+  .App .register .ct_1 .form form input::placeholder {
+    font-size: 9px;
+  }
+  .App .register .ct_1 .form form .ct_p img {
+    top: 14px;
+    padding: 20px;
+  }
+  .App .register .ct_1 .form form .submit_btn button {
+    height: 20px;
+    font-size: 9px;
+  }
+  .App .register .ct_1 .form form .submit_btn span {
+    font-size: 9px;
+  }
+  .App .verification .ct_1 .header img {
+    width: 160px;
+  }
+  .App .verification .ct_1 .text h1 {
+    font-size: 16px;
+  }
+  .App .verification .ct_1 .text p {
+    font-size: 10px;
+  }
+  .App .verification .ct_1 .verification_form form div input {
+    height: 32px;
+  }
+  .App .verification .ct_1 .verification_form form .submit_btn button {
+    height: 20px;
+    font-size: 9px;
+  }
 }/*# sourceMappingURL=App.css.map */
