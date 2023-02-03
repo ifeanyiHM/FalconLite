@@ -35,6 +35,13 @@ body {
   color: #4B4A4A;
   font-weight: 400;
 }
+.App .register .ct_1 .text p:nth-child(3), .App .verification .ct_1 .text p:nth-child(3) {
+  line-height: 0px;
+  font-size: 0.99vw;
+}
+.App .register .ct_1 .text p:nth-child(3) a, .App .verification .ct_1 .text p:nth-child(3) a {
+  color: #01C8FF;
+}
 .App .register .ct_1 .form, .App .verification .ct_1 .form {
   margin-left: 6.6%;
 }
@@ -160,7 +167,7 @@ body {
   margin-bottom: 207px;
 }
 .App .register .ct_1 .verification_form form div, .App .verification .ct_1 .verification_form form div {
-  margin: 123px 0 152px 0;
+  margin: 123px 0 0 0;
 }
 .App .register .ct_1 .verification_form form div input, .App .verification .ct_1 .verification_form form div input {
   width: 8.8%;
@@ -174,6 +181,16 @@ body {
   font-size: 2.3vw;
   color: #4B4A4A;
   cursor: pointer;
+}
+.App .register .ct_1 .verification_form form .ctr-1, .App .verification .ct_1 .verification_form form .ctr-1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 152px 0;
+}
+.App .register .ct_1 .verification_form form .ctr-1 p, .App .verification .ct_1 .verification_form form .ctr-1 p {
+  font-size: 0.99vw;
+  color: #4B4A4A;
+  margin-right: 10px;
 }
 .App .register .ct_1 .verification_form form .submit_btn button, .App .verification .ct_1 .verification_form form .submit_btn button {
   width: 59.5%;
@@ -260,8 +277,18 @@ body {
   .App .verification .ct_1 .text p {
     font-size: 12px;
   }
+  .App .verification .ct_1 .text p:nth-child(3) {
+    font-size: 9px;
+  }
   .App .verification .ct_1 .verification_form form div input {
     height: 52px;
+  }
+  .App .verification .ct_1 .verification_form form .ctr-1 p {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+  .App .verification .ct_1 .verification_form form .ctr-1 img {
+    width: 10px;
   }
   .App .verification .ct_1 .verification_form form .submit_btn button {
     height: 30px;

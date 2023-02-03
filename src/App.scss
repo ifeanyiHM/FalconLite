@@ -39,6 +39,15 @@ body{
                     color: #4B4A4A;
                     font-weight: 400;
                 }
+
+                p:nth-child(3){
+                    line-height: 0px;
+                    font-size: 0.99vw;
+
+                    a{
+                        color: #01C8FF;
+                    }
+                }
             }
 
            .form{
@@ -177,7 +186,7 @@ body{
                 form{
                     
                     div{
-                        margin: 123px 0 152px 0;
+                        margin: 123px 0 0 0;
 
                         input{
                             width: 8.8%;
@@ -191,6 +200,18 @@ body{
                             font-size: 2.3vw;
                             color: #4B4A4A;
                             cursor: pointer;
+                        }
+                    }
+
+                    .ctr-1{
+                        display: flex;
+                        justify-content: center;
+                        margin: 0 0 152px 0;
+
+                        p{
+                            font-size: 0.99vw;
+                            color:#4B4A4A;
+                            margin-right: 10px;
                         }
                     }
 
@@ -313,11 +334,26 @@ body{
                 p{
                     font-size: 12px;
                 }
+
+                p:nth-child(3){
+                    font-size: 9px;
+                }
             }
 
             .verification_form form{    
                 div input{
                     height: 52px;
+                }
+
+                .ctr-1{
+                    p{
+                        font-size: 9px;
+                        margin-right: 5px;
+                    }
+
+                    img{
+                        width: 10px;
+                    }
                 }
     
                 .submit_btn button{

@@ -1,5 +1,6 @@
 import Logo from "../Assets/headerImg.svg"
 import currency from "../Assets/curreny.svg"
+import resend from "../Assets/resend.svg"
 
 const Verification = () => {
 
@@ -18,6 +19,7 @@ const Verification = () => {
                 <div className="text">
                     <h1>Kindly enter Email verification code</h1>
                     <p>To Sign up, kindly enter the verification code sent to your email address</p>
+                    <p>Jerryomonefe@gmail.com <a href="ll.vom">change Email</a></p>
                 </div>
                 <div className="verification_form">
                     <form action="">
@@ -55,6 +57,10 @@ const Verification = () => {
                                 onKeyUp={handleKey}
                                 required
                             />
+                       </div>
+                       <div className="ctr-1">
+                            <p>Resend Verification Code</p>
+                            <img src={resend} alt="resend code" />
                        </div>
                        
                         <div className="submit_btn">
